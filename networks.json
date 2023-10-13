@@ -1,8 +1,8 @@
 {
-  "zksync-era-testnet": {
-    "Contract": {
-      "address": "0x378aa0e2727289ad798ab01f5049bc6477747e9e",
-      "startBlock": 10946850
+  "zksync-era": {
+    "ConverterRegistryContract": {
+      "address": "0x19492E54f8691EE36cDBaCE32151172083025ADe",
+      "startBlock": 16241778
     }
   }
 }
