@@ -1,15 +1,15 @@
 specVersion: 0.0.5
-description: Indexing all zkSync Block data
+description: Indexing all linea Block data
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
     name: ConverterRegistryContract
-    network: zksync-era
+    network: linea-goerli
     source:
-      address: "0x19492E54f8691EE36cDBaCE32151172083025ADe"
+      address: "0x8235aAD8a55a912259444CbD6224b192D303785A"
       abi: ConverterRegistryContract
-      startBlock: 16241778
+      startBlock: 1813927
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7

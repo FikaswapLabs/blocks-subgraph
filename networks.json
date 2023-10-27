@@ -1,8 +1,8 @@
 {
-  "zksync-era": {
+  "linea-goerli": {
     "ConverterRegistryContract": {
-      "address": "0x19492E54f8691EE36cDBaCE32151172083025ADe",
-      "startBlock": 16241778
+      "address": "0x8235aAD8a55a912259444CbD6224b192D303785A",
+      "startBlock": 1813927
     }
   }
 }

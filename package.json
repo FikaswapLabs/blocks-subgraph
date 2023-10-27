@@ -1,13 +1,12 @@
 {
-  "name": "zksync-blocks-fikaswap",
+  "name": "linea-blocks-fikaswap",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ zksync-blocks-fikaswap",
-    "create-local": "graph create --node http://localhost:8020/ zksync-blocks-fikaswap",
-    "remove-local": "graph remove --node http://localhost:8020/ zksync-blocks-fikaswap",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 zksync-blocks-fikaswap",
+    "create": "graph create --node https://graph-deploy.goerli.linea.build FikaswapLabs/blocks-subgraph",
+    "remove": "graph remove --node https://graph-deploy.goerli.linea.build FikaswapLabs/blocks-subgraph",
+    "deploy": "graph deploy --node https://graph-deploy.goerli.linea.build --ipfs https://graph-ipfs.goerli.linea.build --version-label 1.0.0 FikaswapLabs/blocks-subgraph",
     "test": "graph test"
   },
   "dependencies": {
