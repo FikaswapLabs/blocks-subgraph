@@ -6,7 +6,7 @@
     "build": "graph build",
     "create": "graph create --node https://graph-deploy.goerli.linea.build FikaswapLabs/blocks-subgraph",
     "remove": "graph remove --node https://graph-deploy.goerli.linea.build FikaswapLabs/blocks-subgraph",
-    "deploy": "graph deploy --node https://graph-deploy.goerli.linea.build --ipfs https://graph-ipfs.goerli.linea.build --version-label 1.0.0 FikaswapLabs/blocks-subgraph",
+    "deploy": "graph deploy --node https://graph-deploy.goerli.linea.build --ipfs https://graph-ipfs.goerli.linea.build --version-label 1.0.1 FikaswapLabs/blocks-subgraph",
     "test": "graph test"
   },
   "dependencies": {
