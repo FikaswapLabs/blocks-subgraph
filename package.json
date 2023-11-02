@@ -7,6 +7,8 @@
     "create": "graph create --node https://graph-deploy.linea.build FikaswapLabs/blocks-subgraph",
     "remove": "graph remove --node https://graph-deploy.linea.build FikaswapLabs/blocks-subgraph",
     "deploy": "graph deploy --node https://graph-deploy.linea.build --ipfs https://graph-ipfs.linea.build --version-label 2.0.4 FikaswapLabs/blocks-subgraph",
+    "deploy:goldsky-init": "goldsky subgraph deploy FikaswapLabs/blocks-subgraph",
+    "deploy:goldsky": "goldsky subgraph deploy blocks-subgraph/1.0.0",
     "test": "graph test"
   },
   "dependencies": {

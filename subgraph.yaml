@@ -5,7 +5,7 @@ schema:
 dataSources:
   - kind: ethereum
     name: ConverterRegistryContract
-    network: linea-mainnet
+    network: linea
     source:
       address: "0x4207cb605801233f8ddd7313c9f466352932b187"
       abi: ConverterRegistryContract

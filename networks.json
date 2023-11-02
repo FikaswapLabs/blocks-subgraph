@@ -1,5 +1,5 @@
 {
-  "linea-goerli": {
+  "linea": {
     "ConverterRegistryContract": {
       "address": "0x4207cb605801233f8ddd7313c9f466352932b187",
       "startBlock": 722915
